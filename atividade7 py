@@ -1,0 +1,13 @@
+contador=0
+soma=0
+while contador < 4:
+  contador += 1
+  nota= float(input(f"insira o primeir{contador} nota"))
+  soma += nota
+  
+mdia= soma/contador
+print("a media das notas: ",mdia)
+if  mdia >=7:
+  print("o aluno esta aprovado")
+else:
+  print("o aluno esta reprovado")
